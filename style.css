@@ -11,3 +11,85 @@ Text Domain:  sheldonhoover
 */
 
 /* Write here your own personal stylesheet */
+
+.child-main-menu ul {
+    margin: 0;
+    padding: 0;
+    line-height: none;
+}
+
+.child-main-menu ul li {
+    display: inline-block;
+}
+
+.child-main-menu li a {
+    color: #000;
+    font-size: 12px;
+    padding: 5px 5px;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.child-main-menu {
+    margin-top: 53px;
+}
+.child-main-menu li a {
+    color: #000;
+    font-size: 12px;
+    padding: 5px 5px;
+    font-family: lato;
+    font-weight: 600;
+}
+
+.child-main-menu {
+    margin-top: 53px;
+}
+
+.social-icon ul {
+    margin: 0;
+    margin:;
+    margin: 0;
+    margin:;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    padding: 5px 5px;
+}
+
+.social-icon ul li i.fa {
+    font-size: 33px;
+    color: #231F20;
+}
+
+.phone_number {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5E5E5E;
+}
+
+.social-icon {
+    position: relative;
+}
+
+.client-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.social-icon {
+    position: relative;
+}
+
+.client-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.header-child {
+    min-height: 159px;
+}
