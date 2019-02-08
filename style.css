@@ -11,7 +11,10 @@ Text Domain:  sheldonhoover
 */
 
 /* Write here your own personal stylesheet */
-
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+body{
+    font-family: 'Lato', sans-serif;
+}
 .child-main-menu ul {
     margin: 0;
     padding: 0;
