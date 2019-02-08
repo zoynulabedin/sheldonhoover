@@ -52,7 +52,7 @@ if(function_exists('acf_add_options_page')) {
 function shhcl_custom_login_page() {
     echo '<style type="text/css">
 	    .login { 
-	    	background-image:url("'. get_stylesheet_directory_uri().'/assets/img/hero/location_hero.jpg") !important; 
+	    	background-image:url("'. get_stylesheet_directory_uri().'/assets/img/g.jpg") !important; 
 	    	background-repeat: no-repeat !important; 
 	    	background-attachment: fixed !important; 
 	    	background-position: center !important; 
