@@ -138,9 +138,27 @@ input#gform_submit_button_1 {
     padding-right: 0px;
 }
 ul#gform_fields_1 input {
-    padding: 10px 8px;
+    padding: 5px 8px;
 }
 #footer-info{
     float: none;
-    text-align: center;
+    text-align: left;
+}
+.et_pb_gutters4 .footer-widget{
+    margin:0px 8% 0px 0px;
+}
+ul#menu-footer-menu {
+    display: flex;
+}
+ul#menu-footer-menu li a {
+    font-size: 12px;
+    padding: 0px 9px;
+}
+.gform_wrapper textarea.medium{
+    height: 100px;
+}
+.text-block-wid {
+    font-size: 14px;
+    /* font-family: lato; */
+    font-weight: 500;
 }
