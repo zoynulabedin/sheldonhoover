@@ -178,3 +178,23 @@ ul#menu-footer-menu li a {
 .learn_btn:hover {
     color: #fff;
 }
+
+form#gform_2 input {
+    width: 100%;
+    padding:10px 8px;
+}
+div#gform_wrapper_2 ul li {
+    margin: 0;
+    padding: 0;
+    line-height:0px;
+}
+input#gform_submit_button_2 {
+    background: #86C232;
+    border: none;
+    color: #fff;
+    margin-top: 10px;
+    cursor: pointer;
+}
+iframe#fitvid0 {
+    height: 325px;
+}
