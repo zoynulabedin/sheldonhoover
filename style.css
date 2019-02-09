@@ -162,3 +162,19 @@ ul#menu-footer-menu li a {
     /* font-family: lato; */
     font-weight: 500;
 }
+.recomended {
+    margin: auto;
+    text-align: center;
+    background: #333333;
+    padding: 10px;
+    margin-top: 19px;
+}
+
+.learn_btn {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.learn_btn:hover {
+    color: #fff;
+}
