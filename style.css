@@ -196,6 +196,14 @@ input#gform_submit_button_2 {
     margin-top: 10px;
     cursor: pointer;
 }
-iframe#fitvid0 {
-    height: 325px;
+
+a#testmonial_btn {
+    background: #86C232;
+    border: none;
+    color: #fff;
+}
+.et_pb_button:after, .et_pb_button:before{
+    opacity:0 !important;
+    display:none;
+    visibility: hidden;
 }

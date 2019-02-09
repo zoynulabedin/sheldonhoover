@@ -42,7 +42,7 @@ $social_links = get_field('social_links','options');
 				<div class="col-lg-3">
 					<div class="header-left">
 					<?php if( get_field('logo_title','options') ): ?>
-						<h2><?php the_field('logo_title','options'); ?></h2>
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<h2><?php the_field('logo_title','options'); ?></h2></a>
 					<?php endif; ?>
 					<?php if( get_field('sub_title','options') ): ?>
 						<p><?php the_field('sub_title','options'); ?></p>
