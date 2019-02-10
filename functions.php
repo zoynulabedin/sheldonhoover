@@ -33,6 +33,7 @@ $parent_style = 'parent-style';
 		array( $parent_style ),
 		wp_get_theme()->get('Version') );
 		wp_enqueue_script( 'bootsrap-js',  get_stylesheet_directory_uri(). '/assets/js/bootstrap.min.js', array( 'jquery' ), null, true );
+		wp_enqueue_script( 'child-scripts',  get_stylesheet_directory_uri(). '/assets/js/child-scripts.js', array(), null, true );
 	}
 add_action( 'wp_enqueue_scripts', 'sheldonhoover_enqueue_child_styles' );
 

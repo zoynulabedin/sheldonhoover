@@ -39,8 +39,9 @@ $social_links = get_field('social_links','options');
 	<div class="header-child">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-12 col-100">
 					<div class="header-left">
+					
 					<?php if( get_field('logo_title','options') ): ?>
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>">	<h2><?php the_field('logo_title','options'); ?></h2></a>
 					<?php endif; ?>
@@ -49,9 +50,16 @@ $social_links = get_field('social_links','options');
 					<?php endif; ?>
 						
 					</div>
+					<div class="trigger hiddin">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</div>
 				</div>
-				<div class="col-lg-6">
+				<div class="col-lg-6 col-md-8 col-offset-4">
 					<div class="child-main-menu">
+					
 						<?php 
 							wp_nav_menu([
 								'theme_location'	=>'child_menu',
@@ -59,7 +67,7 @@ $social_links = get_field('social_links','options');
 						?>
 					</div>
 				</div>
-				<div class="col-lg-3">
+				<div class="col-lg-3 col-md-4 col">
 					<div class="social-icon">
 						<ul>
 						<?php if ( $social_links['facebook'] ) : ?>
