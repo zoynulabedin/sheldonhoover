@@ -100,3 +100,43 @@ $social_links = get_field('social_links','options');
 			</div>
 		</div>	
 	</div>
+
+	<script type="text/javascript">
+// Special handling for facebook iOS since it cannot open new windows
+(function() {
+    if (navigator.userAgent.indexOf('FBIOS') !== -1 || navigator.userAgent.indexOf('Twitter for iPhone') !== -1) {
+        document.getElementById('af-form-293399748').parentElement.removeAttribute('target');
+    }
+})();
+</script><script type="text/javascript">
+    <!--
+    (function() {
+        var IE = /*@cc_on!@*/false;
+        if (!IE) { return; }
+        if (document.compatMode && document.compatMode == 'BackCompat') {
+            if (document.getElementById("af-form-293399748")) {
+                document.getElementById("af-form-293399748").className = 'af-form af-quirksMode';
+            }
+            if (document.getElementById("af-body-293399748")) {
+                document.getElementById("af-body-293399748").className = "af-body inline af-quirksMode";
+            }
+            if (document.getElementById("af-header-293399748")) {
+                document.getElementById("af-header-293399748").className = "af-header af-quirksMode";
+            }
+            if (document.getElementById("af-footer-293399748")) {
+                document.getElementById("af-footer-293399748").className = "af-footer af-quirksMode";
+            }
+        }
+	})();
+	<div class="AW-Form-293399748"></div>
+<script type="text/javascript">(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//forms.aweber.com/form/48/293399748.js";
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, "script", "aweber-wjs-pzlne18pt"));
+    -->
+</script>
+
+<!-- /AWeber Web Form Generator 3.0.1 -->
