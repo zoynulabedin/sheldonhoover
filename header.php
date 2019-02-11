@@ -50,15 +50,10 @@ $social_links = get_field('social_links','options');
 					<?php endif; ?>
 						
 					</div>
-					<div class="trigger hiddin">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					</div>
+				
 				</div>
 				<div class="col-lg-6 col-md-8 col-offset-4">
-					<div class="child-main-menu">
+					<div class="child-main-menu stop">
 					
 						<?php 
 							wp_nav_menu([

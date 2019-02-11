@@ -221,6 +221,16 @@ a#testmonial_btn {
 .hiddin{
     display: none;
 }
+
+
+.header-child .child-main-menu.stop {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    background-color: #fff;
+ 
+}
 /* responsive css here */
 
 @media only screen and (max-width:1165px) {
@@ -287,7 +297,7 @@ a#testmonial_btn {
         border-radius: 1px;
     }
 
-    .header-child .col-offset-4 .child-main-menu{
+  .child-main-menu{
         display: none;
     }
     .header-child .col{
@@ -315,4 +325,5 @@ a#testmonial_btn {
     .header-child .client-img {
         display: none;
     }
+ 
 }
